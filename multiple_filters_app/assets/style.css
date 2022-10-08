@@ -1,0 +1,124 @@
+/* Bouton export des tables */
+.export {
+    color: #fff;
+    background-color: #808a9e;
+    border-color: #33363d;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+/* Couleur de fond des tabs */
+.card_content_style {
+    background-color: #cbe0fd3d
+}
+
+/* Couleur de fond titre tabs non sélectionnées */
+.tabs_content_style {
+    background-color: #ffffff
+}
+
+
+/* Tabs non sélectionnées */
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    color: #495a74;
+    font-size: 20px;
+    background: 0 0;
+    border: 1px solid #acbcd33d;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+
+/* Tab séléctionnée */
+.nav-tabs .nav-link.active {
+    background-color: #cbe0fd3d;
+    font-weight: bold;
+    font-size: 20px;
+    color: #495a74
+}
+
+
+/* Titres Dropdown */
+.dropdown-label {
+    text-align: left;
+    margin-left: 2px;
+    color: #495a74
+}
+
+
+/* Titres Slider */
+.slider-label {
+  text-align: center;
+  margin-left: 40px;
+  color: #495a74
+}
+
+
+/* Titres h2 */
+.titre-label-h2 {
+    text-align: left;
+    text-decoration: underline;
+    color: #495a74;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    max-width: 90%;
+    /* font-family: 'Monaco'; */
+}
+
+
+/* Layout général */
+.layout {
+    padding: 10px;
+}
+
+
+/* Tableaux */
+.dt-table-container__row {
+    padding: 0px 5px;
+    margin-right: auto;
+    max-width: 90%;
+    overflow: auto;
+}
+
+
+.head_lock {
+  position: fixed;
+  z-index: 99;
+}
+
+
+.ligne_sep {
+    border-top: 2px solid #495a74;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    box-shadow: 0 0 10px #495a74;
+    width: 80%;
+}
+
+
+.fixed_top_select {
+  margin-left: 10px;
+  margin-right: auto;
+  text-align: left;
+}
