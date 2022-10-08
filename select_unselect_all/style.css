@@ -1,0 +1,73 @@
+/* Bouton vert (ex: pour dire que les données sont chargées */
+.buttonGreen {
+    color: #fff;
+    background-color: #68a360;
+    border-color: #343d33;
+    display: inline-block;
+    margin-top: 4px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* Bouton clignotant rouge */
+.buttonBlink {
+    color: #fff;
+    border-color: #33363d;
+    display: inline-block;
+    margin-top: 4px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+  @keyframes glowing {
+    0% {
+      background-color: #d47c7c;
+    }
+    50% {
+      background-color: #da4e4e;
+      box-shadow: 0 0 10px #da4e4e;
+    }
+    100% {
+      background-color: #d47c7c;
+    }
+  }
+  .buttonBlink {
+    animation: glowing 2000ms infinite;
+  }
+
+
+/* Titres h2 */
+.titre-label-h2 {
+    text-align: left;
+    text-decoration: underline;
+    color: #495a74;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    max-width: 90%;
+    /* font-family: 'Monaco'; */
+}
