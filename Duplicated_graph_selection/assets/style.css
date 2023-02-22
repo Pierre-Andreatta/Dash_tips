@@ -1,0 +1,7 @@
+.row {
+  --bs-gutter-x: 0
+}
+
+.col_for_test {
+  padding: 20px;
+}
